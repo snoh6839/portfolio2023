@@ -63,3 +63,11 @@ function git8() {
 function others8() {
   window.open('https://snoh6839.github.io/todo/');
 }
+
+function git9() {
+  window.open('https://github.com/snoh6839/20230406home/blob/main/blackjackfun.php')
+}
+
+function git10() {
+  window.open('https://github.com/snoh6839/phpMiniBoard.git')
+}
