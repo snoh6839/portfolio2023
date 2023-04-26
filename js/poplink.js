@@ -71,3 +71,7 @@ function git9() {
 function git10() {
   window.open('https://github.com/snoh6839/phpMiniBoard.git')
 }
+
+function git11() {
+  window.open('https://github.com/PHP-506-1/PHP_1STPJ.git')
+}
