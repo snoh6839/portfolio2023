@@ -75,3 +75,7 @@ function git10() {
 function git11() {
   window.open('https://github.com/PHP-506-1/PHP_1STPJ.git')
 }
+
+function git12() {
+  window.open('https://github.com/snoh6839/20230511/blob/master/session/login.php')
+}
