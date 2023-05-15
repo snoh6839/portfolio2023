@@ -77,5 +77,5 @@ function git11() {
 }
 
 function git12() {
-  window.open('https://github.com/snoh6839/20230511/blob/master/session/login.php')
+  window.open('https://github.com/snoh6839/20230515.git')
 }
