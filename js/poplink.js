@@ -79,3 +79,11 @@ function git11() {
 function git12() {
   window.open('https://github.com/snoh6839/20230515.git')
 }
+
+function git13() {
+  window.open('https://github.com/snoh6839/Sass_site.git')
+}
+
+function others13() {
+  window.open('https://snoh6839.github.io/Sass_site/')
+}

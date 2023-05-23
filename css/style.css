@@ -56,6 +56,14 @@ section {
   justify-content: center;
   align-items: center;
   overflow: auto;
+  
+}
+
+section:nth-child(even){
+background-color: #f1f1f1;
+}
+section:nth-child(odd){
+background-color: #d9d9d9;
 }
 
 h2 {
@@ -215,15 +223,15 @@ button.btn:hover:after {
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
-#screen2 , #screen3, #screen5 {
+.proSection {
   display: flex;
   flex-direction: column;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
   color: #000;
 
 }
 
-#screen2 h2 , #screen3 h2 , #screen5 h2{
+.proSection h2{
   font-size: 36px;
   width: 100%;
   text-align: center;
@@ -253,7 +261,7 @@ button.btn:hover:after {
 
 .wrap_bg {
   font-weight: bold;
-  width: 39%;
+  width: 38%;
   background-color: #fff;
   border-radius: 3%;
   border: 3px solid #d9d9d9;
@@ -462,7 +470,7 @@ button.btn:hover:after {
   display: flex;
   flex-direction: column;
   align-items: space-btween;
-  background-color: #d9d9d9;
+  /* background-color: #d9d9d9; */
   color: #000;
   text-transform: capitalize;
 }
@@ -588,6 +596,7 @@ ul.tabs li.current:after {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  z-index: 99;
 }
 
 li {
