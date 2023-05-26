@@ -87,3 +87,7 @@ function git13() {
 function others13() {
   window.open('https://snoh6839.github.io/Sass_site/')
 }
+
+function git14() {
+  window.open('https://github.com/snoh6839/laravelBoard.git')
+}
