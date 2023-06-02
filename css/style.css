@@ -267,10 +267,10 @@ button.btn:hover:after {
   border: 3px solid #d9d9d9;
   margin-bottom: 10px;
   min-height: 270px;
-}
-
-.wrap_bg p:nth-child(2) {
-  min-height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 
 .wrap_bg p, .wrap_bg button {
