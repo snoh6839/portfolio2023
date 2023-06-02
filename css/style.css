@@ -269,7 +269,9 @@ button.btn:hover:after {
   min-height: 270px;
 }
 
-
+.wrap_bg p {
+  min-height: 110px;
+}
 
 .wrap_bg p, .wrap_bg button {
   margin: 10px;
