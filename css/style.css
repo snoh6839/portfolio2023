@@ -269,7 +269,7 @@ button.btn:hover:after {
   min-height: 270px;
 }
 
-.wrap_bg p {
+.wrap_bg p:nth-child(2) {
   min-height: 110px;
 }
 
