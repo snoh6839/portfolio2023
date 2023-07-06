@@ -91,3 +91,7 @@ function others13() {
 function git14() {
   window.open('https://github.com/snoh6839/laravelBoard.git')
 }
+
+function git15() {
+  window.open('https://github.com/PHP-506-Money/2nd_project_v2.git')
+}
