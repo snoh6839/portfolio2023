@@ -251,7 +251,7 @@ button.btn:hover:after {
   position: relative;
   padding: 40px;
   box-sizing: border-box;
-  z-index: 2;
+  z-index: 200;
 }
 
 .wrap {
