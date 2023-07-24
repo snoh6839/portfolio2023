@@ -260,7 +260,7 @@ button.btn:hover:after {
 
 .wrap_bg {
   font-weight: bold;
-  width: 38%;
+  width: 29%;
   background-color: #fff;
   border-radius: 3%;
   border: 3px solid #d9d9d9;
@@ -270,6 +270,10 @@ button.btn:hover:after {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+}
+
+#screen8 .wrap_bg {
+  width: 35%;
 }
 
 .wrap_bg p, .wrap_bg button {
