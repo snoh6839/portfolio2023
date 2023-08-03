@@ -100,6 +100,10 @@ h2 {
   
 }
 
+#basicnav ul {
+  float: right;
+}
+
 
 #basicnav li {
   display: inline-block;
@@ -753,6 +757,10 @@ footer p {
     .wrap {
       width: 80%;
     }
+
+  .pop_wrap .pop_inner {
+    width: 20em;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -777,4 +785,8 @@ footer p {
     font-size: 14px;
     
   }
+
+    .pop_wrap .pop_inner {
+      padding: 10px;
+    }
 }
