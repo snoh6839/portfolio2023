@@ -45,7 +45,7 @@ body {
   font-size: 18px;
   text-align: center;
   /* overflow: hidden; */
-  min-width: 940px;
+  min-width: 250px;
 
 }
 
@@ -70,46 +70,46 @@ h2 {
   color: #111;
 }
 
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  min-width: 940px;
-  height: 50px;
-  z-index: 500;
-  background-color: #000;
-  color: #fff;
-}
 
 .logo {
   display: inline-block;
   line-height: 50px;
   font-size: 25px;
   float: left;
-  padding-left: 3em;
+  padding-left: 1em;
   color: #7a9dbf;
   cursor: default;
 }
 
-.nav {
-  float: right;
+
+
+#basicnav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* min-width: 940px; */
+  min-width: 250px;
+  height: 50px;
+  z-index: 500;
+  background-color: #000;
+  color: #fff;
 }
 
-nav li {
+
+#basicnav li {
   display: inline-block;
   line-height: 50px;
   font-size: 20px;
-  padding: 0 10px;
-  padding-right: 5em;
+  padding: 0 2rem;
 }
 
-nav li a {
+#basicnav li a {
   color: #f2f2f2;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-nav li a:hover, .wrap .btn_open:hover {
+#basicnav li a:hover, .wrap .btn_open:hover {
   color: #2596be;
 }
 
@@ -129,7 +129,7 @@ nav li a:hover, .wrap .btn_open:hover {
 #screen1 h1 {
   font-family: 'Press Start 2P', cursive;
   font-size: 50px;
-  min-width: 11px;
+  /* min-width: 11px; */
   white-space: nowrap;
   margin: 0;
   padding-left: 12px;
@@ -172,7 +172,7 @@ nav li a:hover, .wrap .btn_open:hover {
 
 #screen1 button {
   font-size: 36px;
-  min-width: 11px;
+  /* min-width: 11px; */
   position: absolute;
   border: none;
   display: block;
@@ -240,7 +240,7 @@ button.btn:hover:after {
 }
 
 .pro-wrap {
-  max-width: 1400px;
+  /* max-width: 1400px; */
   margin-top: 50px;
   font-family: 'Noto Sans KR', sans-serif;
   display: flex;
@@ -249,7 +249,7 @@ button.btn:hover:after {
   flex-wrap: wrap;
   gap: 5%;
   position: relative;
-  padding: 40px;
+  padding: 5%;
   box-sizing: border-box;
 }
 
@@ -265,16 +265,14 @@ button.btn:hover:after {
   border-radius: 3%;
   border: 3px solid #d9d9d9;
   margin-bottom: 10px;
-  min-height: 270px;
+  /* min-height: 270px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
 }
 
-#screen8 .wrap_bg {
-  width: 35%;
-}
+
 
 .wrap_bg p, .wrap_bg button {
   margin: 10px;
@@ -330,7 +328,7 @@ button.btn:hover:after {
   display: inline-block;
   padding: 20px 30px;
   width: 30em;
-  min-height: 250px;
+  /* min-height: 250px; */
   line-height: 19px;
   background: #fff;
   vertical-align: middle;
@@ -528,7 +526,7 @@ ul.tabs li.current:after {
   gap: 20px 2%;
   box-sizing: border-box;
   padding-bottom: 50px;
-  max-width: 1400px;
+  /* max-width: 1400px; */
 }
 
 .tab_menu .item-container.current {
@@ -592,8 +590,8 @@ ul.tabs li.current:after {
 
 .anchor {
   position: fixed;
-  right: 5em;
-  bottom: 8em;
+  right: 1rem;
+  bottom: 7rem;
   display: block;
   width: 80px;
   height: 48px;
@@ -667,4 +665,68 @@ footer {
 footer p {
   height: 50px;
   line-height: 50px
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    
+  .wrap_bg p span {
+      font-size: 16px;
+      padding: 6px;
+    }
+
+  .wrap {
+    width: 47%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  #screen1 h1 {
+    font-size: 30px;
+  }
+
+  .wrap_bg {
+    width: 50%;
+  }
+
+    .wrap_bg p span {
+      font-size: 24px;
+      
+    }
+
+    .wrap {
+      width: 75%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+  #screen1 h1 {
+      font-size: 16px;
+    }
+
+  .wrap_bg {
+    width: 80%;
+  }
+
+    .wrap {
+      width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+  .wrap {
+    width: 98%;
+  }
+  .wrap_bg {
+    width: 90%;
+  }
+
+  .wrap_bg p span {
+    font-size: 14px;
+    
+  }
 }

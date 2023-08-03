@@ -95,3 +95,7 @@ function git14() {
 function git15() {
   window.open('https://github.com/PHP-506-Money/2nd_project_v2.git')
 }
+
+function git16() {
+  window.open('https://github.com/PHP-506-Money/3rd_project/tree/main/Finmate2')
+}
